@@ -1,3 +1,6 @@
+/* Hello surajan, this comment is added by kamal
+    And I think it is now good to start some good stuffs
+ */
 #include<iostream>
 #include<iomanip>
 #include<fstream>
