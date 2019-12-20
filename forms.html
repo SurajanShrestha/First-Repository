@@ -1,0 +1,65 @@
+<!DOCTYPE ---html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="./table.html" method="POST">
+	  <h1 align="center">Davie's Burgers</h1>
+	  <h2>Create a Burger</h2>
+	  <p>Here at Davie's Burgers we have the best burgers for expanding your appetite. Who knows? Having one more won't hurt right?</p>
+	  <label for="patty">What type of Protein would you like?</label>
+	  <br>
+	  <input type="text" name="patty" id="patty">
+	  <br><br>
+	  <label for="amount">How many patties would you like?</label>
+	  <br>
+	  <input type="number" name="amount" id="amount" step="1">
+	  <br><br>
+	  <label for="doneness">How well do you want to have your patty cooked?</label>
+	  <br> 
+	  <span>Rare</span>
+	  <input type="range" min="0" max="5" step="0.5" name="doneness" id="doneness">
+	  <span>Well-Done</span>
+	  <br><br>
+	  <span>What toppings would you like?</span>
+	  <br>
+	  <label for="lettuce">Lettuce</label>	
+	  <input type="checkbox" name="toppings" value="lettuce" id="lettuce">
+	  <label for="tomato">Tomato</label>	
+	  <input type="checkbox" name="toppings" value="tomato" id="tomato">
+	  <label for="bacon">Bacon</label>	
+	  <input type="checkbox" name="toppings" value="bacon" id="bacon">
+	  <br><br>
+	  <span>Would you like to add Cheese?</span>
+	  <br>
+	  <input type="radio" name="cheese" value="yes" id="yes">
+	  <label for="yes">Yes</label>
+	  <input type="radio" name="cheese" value="no" id="no">
+	  <label for="no">No</label>
+	  <br><br>
+	  <label for="bun">What type of Bun would you like?</label>
+	  <br>
+	  <select name="bun" id="bun">
+	    <option value="sesame">Sesame</option>
+	    <option value="potato">Potato</option>
+		<option value="garlic">Garlic</option>
+	  </select>
+	  <br><br>
+	  <label for="sauce">What type of sauce would you like?</label>
+	  <br>
+	  <input type="text" name="sauce" id="sauce" list="sauces">
+	  <datalist id="sauces">
+	    <option value="Ketchup"></option>
+	    <option value="Mayo"></option>
+		<option value="BBQ"></option>
+	  </datalist>
+	  <br><br>
+	  <label for="extra">Anything else you want to add?</label>
+	  <br>
+	  <textarea name="extra" id="extra" rows="8" cols="50">Add Something else</textarea>
+	  <br><br>
+	  <input type="submit" value="Send">
+	</form>
+  </body>
+</html>
