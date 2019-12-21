@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h1>Sign Up Now Idiots!!!</h1>
+    <form action="./forms.html" method="POST">
+	  <label for="firstname">First Name:</label>
+	  <input type="text" name="firstname" id="firstname" minlength="3" maxlength="20" placeholder="Must Be Filled" required>
+	  <label for="lastname">Last Name:</label>
+	  <input type="text" name="lastname" id="lastname" minlength="3" maxlength="15" placeholder="Must Be Filled" required>
+	  <br><br>
+	  <label for="age">Age:</label>
+	  <input type="number" name="age" id="age" min="18" max="100" placeholder="Must Be Filled" required>
+	  <br><br>
+	  <label for="username">Username:</label>
+	  <input type="text" name="username" id="username" minlength="5" maxlength="15" pattern="[a-zA-Z0-9]+" placeholder="Only AlphaNumeric Characters" required>
+	  <br><br>
+	  <label for="password">Password:</label>
+	  <!-- pattern=".{8,15} means minlength=8 and maxlength=15 and all characters are allowed"-->
+	  <input type="password" name="password" id="password" pattern=".{8,15}" placeholder="Minimum 8 characters" required>
+	  <br><br>
+	  <input type="submit" value="Sign Up">
+	</form>
+  </body>
+</html>
