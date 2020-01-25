@@ -1,0 +1,15 @@
+
+.grid{
+	/*width: 1000px;*/
+	height: 500px;
+	display: grid;
+	border: 2px red solid; 
+	grid-template: repeat(2,1fr 3fr) / 1fr minmax(50px,600px) 2fr;
+	grid-row-gap: 5px;
+	grid-column-gap: 10px; 
+}
+
+.box{
+	border: 1px orchid inset;
+	border-radius: 5px;
+}
