@@ -1,15 +1,35 @@
 
+h1{
+	font-family: monospace;
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+}
+
 .grid{
 	/*width: 1000px;*/
 	height: 500px;
 	display: grid;
 	border: 2px red solid; 
-	grid-template: repeat(2,1fr 3fr) / 1fr minmax(50px,600px) 2fr;
-	grid-row-gap: 5px;
-	grid-column-gap: 10px; 
+	grid-template: repeat(3,1fr 3fr) / 1fr minmax(50px,600px) 2fr;
+	grid-gap: 5px 10px;
+	background-color: khaki; 
 }
 
 .box{
-	border: 1px orchid inset;
+	border: 1px green inset;
 	border-radius: 5px;
+	margin: 5px;
+}
+
+.a{
+	grid-row: 1 / span 4;
+}
+
+.b{
+	grid-column: 2 / span 2;
+}
+
+.c{
+	grid-area: 2 / 2 / span 3 / span 1;
 }
