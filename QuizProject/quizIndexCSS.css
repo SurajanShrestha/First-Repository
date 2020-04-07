@@ -1,0 +1,38 @@
+
+body{
+    background-image: url(https://comps.canstockphoto.com/seamless-pattern-with-quiz-tournament-or-image_csp67547874.jpg);
+    
+}
+h1{
+    font-family: rockwell;
+    color: forestgreen;
+    text-align: center;
+    border: 8px ridge skyblue;
+    border-radius: 15px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    font-family: "Comic Sans MS";
+}
+.container{
+    margin: auto;
+    width: 30%;
+    border: 3px ridge brown;
+    border-radius: 25px;
+    padding: 25px 25px;
+    background-color: palegreen;
+}
+.question{
+    font-family: "Bookman Old Style";
+    color: maroon;
+}
+.buttonContainer{
+    text-align: center;
+}
+.gif{
+    text-align: center;
+}
