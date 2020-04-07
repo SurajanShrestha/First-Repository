@@ -1,0 +1,96 @@
+
+
+.navigation ul{
+	text-align: center;
+}
+.navigation li{
+	font-size: 18px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	list-style-type: none;
+	color: slategrey;
+}
+.navigation li.logo{
+	font-weight: bold;
+	color: black;
+}
+.content{
+	height: 1000px;
+	overflow: scroll;
+}
+.banner{
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+.anchor{
+	background-color: lightgrey;
+	text-align: center;
+	padding: 20px;
+}
+.anchor a{
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 5px;
+	background-color: red;
+	font-family: Helvetica;
+	letter-spacing: 3px;
+	color: white;
+	padding: 15px;
+	margin: 10px;
+	text-decoration: none;
+}
+.anchor a:hover{
+	background: white;
+	font-family: Garamond;
+	color: red;
+}
+.banner h1{
+	color: white;
+	font-family: Arial;
+	font-size: 38px;	
+	text-align: center;
+	padding: 10px 0px;
+	width: 400px;
+	margin: 0px auto;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+.description h2{
+	color: red;
+	font-family: Helvetica;
+	width: 400px;
+	margin: 40px auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.description h5{
+	font-family: Helvetica;
+	color: slategrey;
+	text-transform: uppercase;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	width: 200px;
+	margin: 40px auto;
+}
+.description p{
+	font-family: "Bookman Old Style";
+	font-size: 20px;
+	color: grey;
+	letter-spacing: 2px;
+	line-height: 40px;
+	width: 50%;
+	text-align: center;
+	margin: 40px auto;
+}
+.description h3{
+	width: 25%;
+	text-align: center;
+	border: 2px dotted red;
+	color: red;
+	padding: 15px 25px;
+	margin: 0px auto;
+}

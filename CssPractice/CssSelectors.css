@@ -1,0 +1,25 @@
+
+p,h5{
+	font-family: Georgia;
+}
+h1.title{
+	color: teal;
+}
+h2.destination{
+	font-family: cursive;
+}
+h5.author{
+	color: purple;
+}
+.description p{	
+	font-family: "Times New Roman";
+}
+.description h5{
+	color: teal;
+}
+.cursive{
+	font-family: cursive;
+}
+.published-date{
+	color: grey;
+}

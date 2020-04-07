@@ -1,0 +1,83 @@
+
+nav{
+	background-color: steelblue;
+	text-align: center;
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+}
+li{
+	list-style-type: none;
+	font-family: "Garamond";
+	color: azure;
+	display: inline-block;
+	width: 100px;
+	padding-top: 5px;
+	padding-right: 10px;
+	text-transform: uppercase;;
+}
+li:hover{
+	color: lightsteelblue;
+}
+main{
+	text-align: center;
+}
+header{
+	text-align: center;
+}
+footer{
+	position: relative;
+	top: 75px;
+	text-align: center;
+	background: lightsteelblue;
+	color: steelblue;
+	height: 100px;
+}
+footer h4{
+	font-family: "Bookman Old Style";
+	letter-spacing: 1px;
+	padding-top: 40px;
+	font-size: 20px;
+}
+.headline{
+	background-color: lightsteelblue;
+	position: relative;
+	top: 75px;
+	padding: 15px 0px;
+}
+.headline h1{
+	font-weight: normal;
+	color: steelblue;
+	font-family: "Bookman Old Style";
+}
+.headline p{
+	font-family: "Bookman Old Style";
+	letter-spacing: 1px;
+}
+.question{
+	position: relative;
+	top: 75px;
+	padding: 15px 0px;
+}
+.question h2{
+	font-family: "Bookman Old Style";
+	font-weight: normal;
+	color: darkslategrey;
+}
+.question h3{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: steelblue;
+}
+.answer{
+	border: 1px solid steelblue;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	color: steelblue;
+}
+.answer:hover{
+	background: lightsteelblue;
+	color: limegreen;
+}
