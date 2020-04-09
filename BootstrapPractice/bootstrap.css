@@ -1,0 +1,38 @@
+
+header{
+	padding: 20px 0px;
+}
+header p{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.jumbotron{
+	background: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+	background-position: top;
+	height: 500px;
+}
+.jumbotron h1{
+	padding: 30px;
+}
+.jumbotron h3{
+	padding-bottom: 30px;
+}
+a.btn{
+	width: 100px;
+	margin: 0px auto;
+}
+main p{
+	padding-left: 10px;
+}
+main img{
+	width: 100%;
+	padding: 10px;
+}
+footer{
+	padding: 20px 0px;
+}
+footer img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
