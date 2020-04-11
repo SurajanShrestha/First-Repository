@@ -1,0 +1,77 @@
+
+html{
+  font-size: 15px;
+}
+main{
+  background: gainsboro;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: left;
+}
+li{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 30px 0px;
+}
+h3{
+  margin: 50px 0px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+figcaption{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+}
+
+#title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+#img-div{
+  padding: 40px 30px;
+  background-color: azure;
+}
+#image{
+  max-width: 100%;
+  margin: 0px auto;
+}
+#img-caption{
+  width: 70%;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+#tribute-link{
+  font-style: normal;
+}
+figcaption a{
+  color: black;
+  background-color: gainsboro;
+}
+figcaption a:hover{
+  color: gray;
+}
+h3 a{
+  color: black;
+  background-color: darkgray;
+}
+h3 a:hover{
+  color: gray;
+}
