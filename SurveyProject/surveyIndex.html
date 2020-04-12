@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="./surveyStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>	
+<section class="heading">
+  <h1 id="title">Social Media Survey Form!</h1>
+  <p>Fill out the Survey Form regarding your favorite and most popular Social Media Apps trending right now.</p>
+</section>
+<main>
+  <div class="form-container">
+    <form id="survey-form">
+        <div class="form-name">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>      
+        </div>
+        <div class="form-email">
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Your Email" required>      
+        </div>
+        <div class="form-age">
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" name="age" id="number" min="16" max="100" placeholder="Enter Your Age" required>      
+        </div>
+        <div class="form-role">
+            <label for="dropdown">Which of these options describe you the best?</label>
+            <select name="role" id="dropdown" required>
+                <option value="" disabled selected>Choose Your Role</option>
+                <option value="student">Student</option>
+                <option value="developer">Developer</option>
+                <option value="influencer">Influencer</option>
+                <option value="entrepreneur">Entrepreneur</option>
+                <option value="other">Other</option>
+            </select>      
+        </div>      
+        <div class="form-gender">
+            <p>Choose your Gender:</p>
+            <input class="radio" type="radio" name="gender" value="male" id="male" required>
+            <label for="male">Male</label><br>
+            <input class="radio" type="radio" name="gender" value="female" id="female" required>
+            <label for="female">Female</label><br> 
+            <input class="radio" type="radio" name="gender" value="other" id="other" required>
+            <label for="other">Other</label>
+        </div>
+        <div class="form-purpose" required>
+            <p>For what purpose do you use Social Media?</p>
+            <input type="checkbox" name="purpose" value="entertainment" id="entertainment">
+            <label for="entertainment">Entertainment</label><br>
+            <input type="checkbox" name="purpose" value="business" id="business">
+            <label for="business">Business</label><br>
+            <input type="checkbox" name="purpose" value="information" id="information">
+            <label for="information">Information</label><br>
+            <input type="checkbox" name="purpose" value="communicating" id="communicating">
+            <label for="communicating">Communicating</label><br>
+            <input type="checkbox" name="purpose" value="projects" id="projects">
+            <label for="projects">Projects</label><br>
+            <input type="checkbox" name="purpose" value="research" id="research">
+            <label for="research">Research</label><br>
+            <input type="checkbox" name="purpose" value="personal-devlopment" id="personal-devlopment">
+            <label for="personal-devlopment">Personal-Development</label><br>
+            <input type="checkbox" name="purpose" value="other" id="other">
+            <label for="other">Other</label>
+        </div>
+        <div class="form-favorite">
+            <label for="favorite">Which is your favorite Social Media App</label>
+            <select name="favorite" id="favorite" required>
+                <option value="" disabled selected>Choose Your Favorite App</option>
+                <option value="twitter">Twitter</option>
+                <option value="snapchat">Snapchat</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="tiktok">TikTok</option>
+                <option value="reddit">Reddit</option>
+                <option value="other">Other</option>
+            </select> 
+        </div>
+        <div class="form-comments">
+            <p>Any Comments or Suggestions?</p>
+            <textarea type="text" name="comments" id="comments" rows="8" cols="70"></textarea>
+        </div>
+        <div class="form-submit">
+            <button type="submit" value="submit" id="submit">Submit</button>    
+        </div>
+    </form>  
+  </div>
+</main>
+</body>
+</html>
