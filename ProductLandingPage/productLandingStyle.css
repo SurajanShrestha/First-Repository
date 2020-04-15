@@ -1,0 +1,171 @@
+
+body{
+	font-family: 'Playfair Display', serif;
+	background: gainsboro;
+}
+header{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: lavender;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+header h1{
+	font-size: 4.5vmin;
+}	
+img{
+	width: 80px;
+	height: 80px;
+}
+header nav{
+	margin: 0 0 0 auto; 
+}
+header ul{
+	display: flex;
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+header h3{
+	font-weight: normal;
+	padding: 0px 10px;
+	font-size: 3vmin;
+}
+main{
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+main h2{
+	font-size: 3.5vmin;
+}
+main h3{
+	font-size: 2.5vmin;
+}
+main p,
+main li{
+	font-size: 2.5vmin;
+}
+form{
+	margin: 30px 0px;
+}
+main form input{
+	height: 35px;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px hidden azure;
+	font-family: 'Playfair Display', serif;
+	font-size: 2vmin;
+}
+#submit{
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	border: 1px hidden azure;
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5vmin;
+}
+#submit:hover{
+	background: white;
+}
+#features{
+	margin: 100px 0px;
+}
+.duration{
+	display: flex;
+	justify-content: center;
+	margin: 15px 0px;
+}
+.smoke{
+	display: flex;
+	justify-content: center;
+	margin: 15px 0px;
+}
+.home-delivery{
+	display: flex;
+	justify-content: center;	
+	margin: 15px 0px;
+}
+.description{
+	text-align: left;
+	width: 850px;
+	margin-left: 30px;
+}
+#video{
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px;
+}
+#pricing{
+	margin: 100px auto 0px auto;
+	width: 80%;
+	height: 600px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box{
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 25%;
+	height: 470px;
+	display: flex;
+	flex-direction: column;
+}
+.box h3{
+	margin-top: 0px;
+	padding: 10px;
+	background: silver;
+}
+.box ul{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.box a{
+	border: 1px none black;
+	border-radius: 5px;
+	width: 70px;
+	margin: 10px auto;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	background: silver;
+}
+.box a:hover{
+	background: white;
+}
+@media (max-width: 600px){
+	#pricing li{
+		font-size: 2vmin;
+	}
+}
+footer{
+	display: flex;
+	background: lavender;
+	align-items: center;
+	justify-content: space-around;
+	height: 80px;
+	position: relative;
+	top: 80px;
+}
+footer nav{
+	margin: 0px 0px 0px auto;
+}
+footer ul{
+	display: flex;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+	margin: 0px 20px;
+}
+footer h3{
+	font-weight: normal;
+	font-size: 2.5vmin;
+}
