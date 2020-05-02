@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corona Virus</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./coronaStyle.css">
+</head>
+<body onload="loadFunction()">
+	<div class="main flexbox">
+		<h1>Corona Tracker.</h1>
+		<h3>The Countries Available for information:</h3>
+		<ul id="countryList"></ul>
+		<h3><strong>[NOTE: When entering the names of the country, enter the exact spelling it is represented in the above list.]</strong></h3>	
+	</div>
+	<div class="main">
+		<h2>Country Info:</h2>
+		<label for="countryNameId">Type the Country Name you want to track Covid-19 information:</label><br><br>
+		<input type="text" name="countryName" id="countryNameId"><br><br>
+		<button type="button" id="button">Get Info</button>
+		<div id="result"></div>	
+	</div>
+	<div class="main">
+		<h2>Global Info:</h2>
+		<div id="totalResult"></div>
+	</div>
+	<script type="text/javascript" src="./coronaScript.js"></script>
+</body>
+</html>

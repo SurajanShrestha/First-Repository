@@ -1,0 +1,33 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: palegreen;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+}
+#countryList{
+	max-height: 400px;
+	width: 70%;
+	overflow: scroll;
+}
+.main{
+	margin: 10px;
+	width: 30%;
+	border-radius: 12px;
+	background: green;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+@media (max-width: 800px){
+	.main{
+		width: 80%;
+	}
+}
+.flexbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
