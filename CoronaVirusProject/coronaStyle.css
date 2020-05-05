@@ -57,6 +57,53 @@ button a{
 button a:hover{
 	color: white;
 }
+footer{
+	color: #1BA098;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-top: 40px;
+}
+footer div{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+footer img{
+	width: 30px;
+	height: 30px;
+}
+footer img:hover{
+	opacity: 0.5;
+}
+footer h4{
+	width: 30%;
+}
+.githubDiv{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.imgDiv{
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+@media (max-width: 800px){
+	.imgDiv{
+		width: 30%;
+		display: flex;
+		justify-content: space-around;		
+	}
+	.imgDiv img{
+		width: 25px;
+		height: 25px;
+	}
+}
 #countryList{
 	max-height: 400px;
 	width: 70%;
