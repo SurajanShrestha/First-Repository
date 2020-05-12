@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local API</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            /*To make datalist dropdown arrow always visible*/
+            body{
+                font-family: 'Open Sans', sans-serif;
+                background: gainsboro;
+            }
+            h3{
+                font-weight: normal;
+            }
+            input::-webkit-calendar-picker-indicator {
+              opacity: 100;
+           }
+           .normalApiOutput,.routeParamOutput,.queryParamOutput{
+               margin: 20px 0px 50px 0px;
+               padding: 30px 10px;
+               border: 2px gray solid;
+               font-family: 'DM Mono', monospace;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to Local API</h1>
+        <label for="normalApiActionId">Please Select One of the Api Actions We Have Provided:</label><br><br>
+        <select id="normalApiActionId">
+            <option value="http://localhost:3000/">Get API Menu</option>
+            <option value="http://localhost:3000/file">Get Html File</option>
+            <option value="http://localhost:3000/json">Get Json</option>
+            <option value="http://localhost:3000/time">Get Request Time</option>
+        </select><br><br>
+        <button type="button" id="normalApiButton">Get API Output</button>
+        <div id="normalApiOutputId" class="normalApiOutput"></div>
+        <div>
+            <h3><strong>Our Api also takes Route Parameters in the format: </strong>"http://localhost:3000/name/INPUT_NAME/age/INPUT_AGE/
+            gender/INPUT_GENDER"</h3>
+            <label for="routeParamNameId">Enter Name:</label>
+            <input type="text" name="name" id="routeParamNameId">&nbsp;
+            <label for="routeParamAgeId">Enter Age:</label>
+            <input type="number" name="age" id="routeParamAgeId">&nbsp;
+            <label for="routeParamGenderId">Enter Gender:</label>
+            <input type="text" name="gender" id="routeParamGenderId">&nbsp;
+            <button type="button" id="routeParamButton">Get API Output</button>
+            <div id="routeParamOutputId" class="routeParamOutput"></div>
+        </div>
+        <div>
+            <h3><strong>Our Api also takes Query Parameters in the format: </strong>"http://localhost:3000/queryParams?name=INPUT_NAME&
+            age=INPUT_AGE&gender=INPUT_GENDER"</h3>
+            <label for="queryParamNameId">Enter Name:</label>
+            <input type="text" name="name" id="queryParamNameId">&nbsp;
+            <label for="queryParamAgeId">Enter Age:</label>
+            <input type="number" name="age" id="queryParamAgeId">&nbsp;
+            <label for="queryParamGenderId">Enter Gender:</label>
+            <input type="text" name="gender" id="queryParamGenderId">&nbsp;
+            <button type="button" id="queryParamButton">Get API Output</button>
+            <div id="queryParamOutputId" class="queryParamOutput"></div>
+        </div>
+        <script type="text/javascript" src="./ajaxScript.js"></script>
+    </body>
+</html>
